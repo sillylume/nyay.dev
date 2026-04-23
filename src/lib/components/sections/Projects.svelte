@@ -125,9 +125,7 @@
 <Section id="projects">
 	{#snippet header()}
 		<h1>Projects</h1>
-		<p>
-			Here are all my public projects available on GitHub, sorted by number of stargazers.
-		</p>
+		<p>Here are all my public projects available on GitHub, sorted by number of stargazers.</p>
 	{/snippet}
 
 	{#snippet body()}
