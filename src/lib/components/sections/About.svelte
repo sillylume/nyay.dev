@@ -12,15 +12,15 @@
 			<div>
 				<ul class="*:mb-8">
 					<li>
-						<p class="text-lg opacity-50"><i class="ri-cake-2-line"></i> Age</p>
+						<p class="text-lg text-neutral-600"><i class="ri-cake-2-line"></i> Age</p>
 						<p class="text-xl">&lt; 18 Years old</p>
 					</li>
 					<li>
-						<p class="text-lg opacity-50"><i class="ri-map-pin-2-line"></i> Location</p>
+						<p class="text-lg text-neutral-600"><i class="ri-map-pin-2-line"></i> Location</p>
 						<p class="text-xl">France, Lyon</p>
 					</li>
 					<li>
-						<p class="text-lg opacity-50"><i class="ri-brain-line"></i> Experience</p>
+						<p class="text-lg text-neutral-600"><i class="ri-brain-line"></i> Experience</p>
 						<ul class="pl-4 text-lg">
 							<li>
 								<p>~ 5 Years in Computers/Technology</p>
@@ -50,7 +50,6 @@
 					And being able to create my own tool at the lowest level imaginable to guarantee peak
 					performances for the end user would be a great achievement as a developer.
 				</p>
-				<p></p>
 			</div>
 		</div>
 	{/snippet}

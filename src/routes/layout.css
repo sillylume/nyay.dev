@@ -22,7 +22,7 @@ body {
 }
 
 .secondary {
-	@apply bg-neutral-800/25 px-6 py-2 ring-1 ring-neutral-600/50 backdrop-blur-xs transition-all duration-100 ease-in;
+	@apply bg-neutral-800/50 px-6 py-2 ring-1 ring-neutral-600/50 transition-all duration-100 ease-in;
 
 	@variant hover {
 		@apply ring-2;
