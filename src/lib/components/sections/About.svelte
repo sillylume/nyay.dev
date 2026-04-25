@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Section from '$lib/components/sections/Section.svelte';
+	import Card from '../Card.svelte';
 </script>
 
 <Section id="about">
@@ -18,6 +19,13 @@
 					<li>
 						<p class="text-lg text-neutral-600"><i class="ri-map-pin-2-line"></i> Location</p>
 						<p class="text-xl">France, Lyon</p>
+					</li>
+					<li>
+						<p class="text-lg text-neutral-600"><i class="ri-global-line"></i> Languages</p>
+						<ul class="pl-4 text-xl">
+							<li>French (Native)</li>
+							<li>English (B1)</li>
+						</ul>
 					</li>
 					<li>
 						<p class="text-lg text-neutral-600"><i class="ri-brain-line"></i> Experience</p>
@@ -49,6 +57,10 @@
 				<p>
 					And being able to create my own tool at the lowest level imaginable to guarantee peak
 					performances for the end user would be a great achievement as a developer.
+				</p>
+				<p>
+					I don't need a whole section to show what I can (or might be able) to do... You can check
+					my <a href="#projects" class="underline">Projects</a> to know what I can really do &gt;:3
 				</p>
 			</div>
 		</div>
