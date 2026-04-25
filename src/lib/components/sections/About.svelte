@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Section from '$lib/components/sections/Section.svelte';
-	import Card from '../Card.svelte';
 </script>
 
 <Section id="about">
