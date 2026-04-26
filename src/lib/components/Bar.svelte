@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { slide } from 'svelte/transition';
 	import Logo from './Logo.svelte';
-	import Footer from './Footer.svelte';
 	import Activities from './widgets/Activities.svelte';
 
 	let open: boolean = $state(false);
@@ -41,7 +40,6 @@
 				</ul>
 				<Activities />
 			</div>
-			<Footer />
 		</div>
 	{/if}
 
@@ -53,6 +51,5 @@
 
 	<div class="*:mb-4 not-lg:hidden">
 		<Activities />
-		<Footer />
 	</div>
 </div>
