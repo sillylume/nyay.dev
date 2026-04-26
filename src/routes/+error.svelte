@@ -13,5 +13,3 @@
 		</div>
 	</div>
 </div>
-
-<div class="w-full"></div>
