@@ -16,7 +16,7 @@
 
 	<!-- Mobile -->
 	<div class="z-1 lg:hidden">
-		<button onclick={() => (open = open ? false : true)}>
+		<button onclick={() => (open = !open)}>
 			{#if !open}
 				<i class="ri-menu-line"></i>
 			{:else}
