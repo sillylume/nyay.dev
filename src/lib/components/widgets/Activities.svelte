@@ -15,7 +15,7 @@
 
 {#if activities}
 	<div class="flex flex-col gap-2">
-		{#each activities as activity}
+		{#each activities.slice(0, 2) as activity}
 			<Widget class="flex items-center gap-6 rounded-xl">
 				<img
 					src={activity.assets?.large_image?.replace(/mp:external\/([^\/]*)\/(http[s])/g, '$2:/')}
