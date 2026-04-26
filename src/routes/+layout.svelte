@@ -9,5 +9,7 @@
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 <div class="flex min-h-screen">
 	<Bar />
-	{@render children()}
+	<div class="w-full">
+		{@render children()}
+	</div>
 </div>
