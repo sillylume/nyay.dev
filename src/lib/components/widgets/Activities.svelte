@@ -1,21 +1,13 @@
-<script lang="ts">
-	import Widget from './Widget.svelte';
-
+<script>
 	import { lanyard } from '$lib/stores/lanyard.svelte';
-	import type { Activity, Profile } from '$lib/stores/lanyard.svelte';
-	
-	let activities = $state<Activity[] | null>();
-	lanyard.subscribe(
-		(val) =>
-			(activities = val?.activities.filter(
-				(item, index) => item.id != 'custom' && item.id != 'spotify:1'
-			))
-	);
+	import Widget from './Widget.svelte';
 </script>
 
-{#if activities}
+{#if $lanyard}
 	<div class="flex flex-col gap-2">
-		{#each activities.slice(0, 2) as activity}
+		{#each $lanyard.activities
+			.filter((item) => item.id != 'custom' && item.id != 'spotify:1')
+			.slice(0, 2) as activity (activity)}
 			<Widget class="flex items-center gap-6 rounded-xl">
 				<img
 					src={activity.assets?.large_image?.replace(/mp:external\/([^\/]*)\/(http[s])/g, '$2:/')}
