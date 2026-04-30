@@ -1,0 +1,2 @@
+export const GITHUB_ID = '268245564';
+export const DISCORD_ID = '1200883342527180830';
