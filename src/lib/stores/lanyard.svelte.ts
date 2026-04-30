@@ -1,3 +1,4 @@
+import { DISCORD_ID } from '$lib';
 import { writable } from 'svelte/store';
 
 export type Profile = {
@@ -78,7 +79,7 @@ socket.onopen = () => {
 		JSON.stringify({
 			op: 2,
 			d: {
-				subscribe_to_id: '1200883342527180830'
+				subscribe_to_id: DISCORD_ID
 			}
 		})
 	);
