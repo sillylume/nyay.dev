@@ -27,16 +27,13 @@
 						</ul>
 					</li>
 					<li>
-						<p class="text-lg text-neutral-600"><i class="ri-brain-line"></i> Experience</p>
+						<p class="text-lg text-neutral-600"><i class="ri-brain-line"></i> Experiences</p>
 						<ul class="pl-4 text-lg">
 							<li>
 								<p>~ 5 Years in Computers/Technology</p>
 							</li>
 							<li>
 								<p>~ 4 Years in Development</p>
-							</li>
-							<li>
-								<p>~ 4 Years in Python</p>
 							</li>
 						</ul>
 					</li>
