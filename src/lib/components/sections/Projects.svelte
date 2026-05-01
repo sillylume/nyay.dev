@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { repos } from '$lib/stores/github.svelte';
+	import { repos, users } from '$lib/stores/github.svelte';
 	import Card from '../Card.svelte';
 	import Section from './Section.svelte';
 </script>
@@ -7,7 +7,8 @@
 <Section id="projects">
 	{#snippet header()}
 		<h1>Projects</h1>
-		<p>Here are all my public projects available on GitHub, sorted by number of stargazers.</p>
+		<p>Here are all my public repositories available on GitHub, sorted by number of stargazers.</p>
+		<a href={`${$users?.html_url}/?tab=repositories/`} class="underline">View all repositories <i class="ri-external-link-line"></i></a>
 	{/snippet}
 
 	{#snippet body()}
@@ -23,9 +24,9 @@
 						>
 						<p class="text-lg opacity-50">{repository.description}</p>
 					</div>
-					<p>
-						<span><i class="ri-star-fill"></i> {repository.stargazers_count}</span>
-					</p>
+					<div class="flex gap-8">
+						<span class="text-neutral-600"><i class="ri-star-line"></i> {repository.stargazers_count}</span>
+					</div>
 				</Card>
 			{/each}
 		</div>
