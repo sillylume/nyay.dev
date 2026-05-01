@@ -5,7 +5,7 @@
 <footer class="flex justify-between px-6 py-8 *:w-full sm:px-18">
 	<div>
 		<Logo />
-		<p class="opacity-25">© 2026, All rights reserved.</p>
+		<p class="text-neutral-600">© 2026, All rights reserved.</p>
 	</div>
 	<!-- 
     <div>
